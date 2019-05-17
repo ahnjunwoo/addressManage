@@ -14,7 +14,7 @@ public class AddressManage extends ResourceSupport {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long manageId;
 
     @NotEmpty
     private String name;
@@ -23,7 +23,7 @@ public class AddressManage extends ResourceSupport {
     private String email;
 
     @NotEmpty
-    private int number;
+    private String number;
 
     @NotEmpty
     private String countryCode;
